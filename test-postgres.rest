@@ -1,0 +1,7 @@
+###
+POST http://localhost:9000/api/crawl
+Content-Type: application/json
+
+{
+"urls": ["https://google.com", "https://github.com","https://github.com"]
+}
